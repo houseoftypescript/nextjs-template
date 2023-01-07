@@ -41,3 +41,4 @@
 ## Other
 
 - [robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro)
+- [sitemap.xml](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)
