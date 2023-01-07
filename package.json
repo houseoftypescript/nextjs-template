@@ -14,8 +14,8 @@
     "lint": "next lint",
     "export": "next export",
     "prepare": "husky install || true",
-    "pmigrate": "prisma format && prisma generate && prisma migrate dev --name init",
-    "pstudio": "prisma studio"
+    "prisma:migrate": "prisma format && prisma generate && prisma migrate dev --name init",
+    "prisma:studio": "prisma studio"
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "2.0.1",
