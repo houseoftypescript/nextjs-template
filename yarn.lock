@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@auth0/nextjs-auth0@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@auth0/nextjs-auth0/-/nextjs-auth0-2.2.0.tgz#0ec82df81451f2c3337b1fb7f20fa39a717ff4e8"
-  integrity sha512-e0Gus8uRBBcyYn+pAUOY49aAMCBRooNoJMYIReIxEAMiHgXYU6maqfy0AXdu6XHqqjed9ynpShVwxbZh0aKmDg==
+"@auth0/nextjs-auth0@2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@auth0/nextjs-auth0/-/nextjs-auth0-2.2.1.tgz#6b385605fb010fdf99aba4687999e7b05230a9fd"
+  integrity sha512-bYEz43uRalGKW87ILhRFfYRYiKjACuJyHKmGtLz8qCnqeGCapBOh/WgFdNWAnqBJEjN+Som3UXdLzVotZ0b1yg==
   dependencies:
     "@panva/hkdf" "^1.0.2"
     cookie "^0.5.0"
