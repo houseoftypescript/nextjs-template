@@ -18,7 +18,7 @@
     "prisma:studio": "prisma studio"
   },
   "dependencies": {
-    "@auth0/nextjs-auth0": "2.2.0",
+    "@auth0/nextjs-auth0": "2.2.1",
     "@emotion/react": "11.10.5",
     "@emotion/styled": "11.10.5",
     "@fontsource/roboto": "4.5.8",
