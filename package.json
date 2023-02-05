@@ -13,7 +13,7 @@
     "yarn": ">= 1"
   },
   "scripts": {
-    "dev": "kill-port 3000 && next dev",
+    "dev": "kill-port 3000 && next dev -p 3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
