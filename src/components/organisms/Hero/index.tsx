@@ -1,30 +1,43 @@
+import { Button, Container } from '@mui/material';
 import Link from 'next/link';
-import { configs } from '../../../configs';
-import { Background } from '../../atoms/Background';
-import LandingButton from '../../atoms/LandingButton';
-import { Section } from '../../atoms/Section';
-import { Navbar } from '../../molecules/Navbar';
+import Navbar from '../../molecules/Navbar';
 
-export const Hero: React.FC = () => (
-  <Background color="bg-gray-100">
-    <Section yPadding="py-6">
-      <Navbar />
-    </Section>
+type HeroProps = {
+  title: string;
+  subtitle: string;
+  description: string;
+};
 
-    <Section yPadding="pt-20 pb-32">
-      <header className="text-center">
-        <h1 className="text-5xl text-gray-900 font-bold whitespace-pre-line leading-hero">
-          {configs.hero.title}
-          <br />
-          <span className="text-primary-500">{configs.hero.subtitle}</span>
-        </h1>
-        <div className="text-2xl mt-4 mb-16">{configs.hero.description}</div>
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
-          <LandingButton xl>Download Your Free Theme</LandingButton>
-        </Link>
-      </header>
-    </Section>
-  </Background>
+export const Hero: React.FC<HeroProps> = ({
+  title = '',
+  subtitle = '',
+  description = '',
+}) => (
+  <div className="bg-gray-100">
+    <Navbar />
+    <Container>
+      <div className="py-16 md:py-32">
+        <header className="flex flex-col gap-8 text-center">
+          <h1 className="text-5xl text-gray-900 font-bold whitespace-pre-line leading-hero">
+            {title}
+            <br />
+            <span className="text-primary-500">{subtitle}</span>
+          </h1>
+          <div className="text-2xl">{description}</div>
+          <Link href="#">
+            <Button
+              type="button"
+              variant="contained"
+              className="font-extrabold px-6 py-4"
+              sx={{ backgroundColor: 'rgb(3, 169, 244)' }}
+            >
+              Download App
+            </Button>
+          </Link>
+        </header>
+      </div>
+    </Container>
+  </div>
 );
 
 export default Hero;

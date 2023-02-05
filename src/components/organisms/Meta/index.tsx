@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import { configs } from '../../../configs';
+import { content } from '../../../content';
 
 type IMetaProps = {
   title: string;
@@ -15,12 +15,6 @@ export const Meta: React.FC<IMetaProps> = (props: IMetaProps) => {
   return (
     <>
       <Head>
-        <meta charSet="UTF-8" key="charset" />
-        <meta
-          name="viewport"
-          content="width=device-width,initial-scale=1"
-          key="viewport"
-        />
         <link
           rel="apple-touch-icon"
           href={`${router.basePath}/apple-touch-icon.png`}
@@ -54,8 +48,8 @@ export const Meta: React.FC<IMetaProps> = (props: IMetaProps) => {
           title: props.title,
           description: props.description,
           url: props.canonical,
-          locale: configs.locale,
-          site_name: configs.site_name,
+          locale: content.locale,
+          site_name: content.site_name,
         }}
       />
     </>
