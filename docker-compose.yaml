@@ -5,9 +5,9 @@ volumes:
     driver: local
 
 services:
-  postgres-boilerplate:
+  postgres-instance:
     image: postgres:latest
-    container_name: postgres-boilerplate
+    container_name: postgres-instance
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
