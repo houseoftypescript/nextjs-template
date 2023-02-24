@@ -18,6 +18,7 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next export",
+    "test": "jest",
     "prepare": "husky install || true",
     "prisma:migrate": "prisma format && prisma generate && prisma migrate dev --name init",
     "prisma:studio": "prisma studio"
