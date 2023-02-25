@@ -24,6 +24,8 @@ jobs:
         run: yarn build
       - name: Export Static
         run: yarn export
+      - name: Add .nojekyll file
+        run: touch ./out/.nojekyll
       - name: Deploy GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
