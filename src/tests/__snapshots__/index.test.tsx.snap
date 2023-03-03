@@ -3,18 +3,36 @@
 exports[`HomePage to match snapshot 1`] = `
 <div>
   <main
-    class="w-full h-screen flex flex-col items-center justify-center gap-4"
+    class="w-full h-screen flex items-center justify-center"
   >
-    <h1
-      class="text-9xl font-bold uppercase"
+    <div
+      class="flex flex-col gap-4 text-center uppercase"
     >
-      Next.js
-    </h1>
-    <p
-      class="text-3xl"
-    >
-      TypeScript + Tailwind CSS + Material UI
-    </p>
+      <h1
+        class="text-9xl font-bold uppercase"
+      >
+        Next.js
+      </h1>
+      <p
+        class="text-3xl"
+      >
+        TypeScript + Tailwind CSS + Material UI
+      </p>
+      <a
+        href="/auth/sign-in"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth css-1fu7jd5-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          Sign In
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </a>
+    </div>
   </main>
 </div>
 `;
