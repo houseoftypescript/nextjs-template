@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NotFoundPage to match snapshot 1`] = `
+exports[`NotFoundTemplate to match snapshot 1`] = `
 <div>
   <main
     class="w-full h-screen flex flex-col justify-center items-center gap-4"

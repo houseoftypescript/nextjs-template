@@ -1,9 +1,9 @@
-import NotFoundPage from '@/pages/404';
 import { render } from '@testing-library/react';
+import { NotFoundTemplate } from '..';
 
-describe('NotFoundPage', () => {
+describe('NotFoundTemplate', () => {
   it('to match snapshot', () => {
-    const { container } = render(<NotFoundPage />);
+    const { container } = render(<NotFoundTemplate />);
     expect(container).toMatchSnapshot();
   });
 });
