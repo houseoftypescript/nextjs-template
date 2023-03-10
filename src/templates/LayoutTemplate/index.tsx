@@ -1,8 +1,9 @@
+import { ReactNode } from 'react';
 import Footer from '../../components/organisms/Footer';
 import Navbar from '../../components/organisms/Navbar';
 
 export type LayoutTemplateProps = {
-  children?: JSX.Element;
+  children?: ReactNode;
 };
 
 export const LayoutTemplate: React.FC<LayoutTemplateProps> = ({
