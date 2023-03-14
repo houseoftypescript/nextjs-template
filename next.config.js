@@ -6,7 +6,7 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: isProd ? '/nextjs-template' : undefined,
   assetPrefix: isProd ? '/nextjs-template/' : undefined,
-  image: { unoptimized: true },
+  images: { unoptimized: true },
 };
 
 module.exports = nextConfig;
