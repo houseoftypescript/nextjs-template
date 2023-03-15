@@ -29,7 +29,7 @@
     "@emotion/styled": "11.10.6",
     "@fontsource/roboto": "4.5.8",
     "@mui/icons-material": "5.11.11",
-    "@mui/material": "5.11.12",
+    "@mui/material": "5.11.13",
     "@next/font": "13.2.4",
     "@prisma/client": "4.11.0",
     "apexcharts": "3.37.1",
